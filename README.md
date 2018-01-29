@@ -25,9 +25,14 @@ API ​you ​would ​like. ​Here ​is ​one ​we ​recommend: https://op
 ### Technical​ ​requirements:
 
 ● You ​will ​be ​using ​a ​project ​built ​on ​the ​Next.js ​framework. ​As ​such, ​you ​will ​be ​using ​React.
+
 ● Use ​React ​best-practices ​to ​effectively ​allow ​for ​code ​reuse ​and ​cleanliness.
+
 ● Use ​ES6 ​and ​ES7 ​features ​(such ​as ​ES6 ​class ​declarations, ​async/await, ​object ​destructuring,
 arrow ​functions, ​etc.) ​to ​write ​clean, ​concise, ​and ​maintainable ​code.
+
 ● Implement ​smooth ​scrolling ​manually
+
 ● Use ​version ​control ​to ​effectively ​track ​feature, ​bug ​fixes, ​and ​refactoring.
+
 ● You ​may ​use ​the ​internet ​to ​do ​research, ​but ​please ​do ​not ​copy ​any ​code ​without ​citing ​it.

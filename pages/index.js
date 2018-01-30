@@ -1,14 +1,24 @@
-import React from 'react';
+import { Component } from 'react';
 import Layout from '../components/Layout'
-
-const Index = () => (
- <Layout>
-   <div>
-      <h1>Hello Common!</h1>
-      <p>Type in your zip code to see how awful the weather is in your area this week</p>
-   </div>
- </Layout>
-);
+import {HomeText, ZipCodeButton, SubmitButton} from '../components/home'
 
 
-export default Index;
+export default class Index extends Component {
+ render() {
+   return (
+     <Layout>
+        <HomeText />
+        <ZipCodeButton />
+        <SubmitButton />
+    <style jsx global>{`
+        body {
+          background: #cd432e
+          color: #f2f2f2f2
+        }
+      `}
+      </style>
+    </Layout>
+
+    )
+  }
+}

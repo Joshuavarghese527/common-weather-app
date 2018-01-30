@@ -36,3 +36,14 @@ arrow ​functions, ​etc.) ​to ​write ​clean, ​concise, ​and ​main
 ● Use ​version ​control ​to ​effectively ​track ​feature, ​bug ​fixes, ​and ​refactoring.
 
 ● You ​may ​use ​the ​internet ​to ​do ​research, ​but ​please ​do ​not ​copy ​any ​code ​without ​citing ​it.
+
+### Work Timeline 
+
+[ ] Style index page for zip code
+[ ] Style Forcast Page
+[ ] Fetch data from weather api 
+[ ] Display data on Forcast Page
+[ ] Scroll Animations
+ 
+
+

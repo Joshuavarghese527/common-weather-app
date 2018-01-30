@@ -3,7 +3,7 @@
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
-   "scripts": {
+  "scripts": {
     "dev": "next",
     "build": "next build",
     "start": "next start"
@@ -14,6 +14,11 @@
   "dependencies": {
     "next": "^4.2.3",
     "react": "^16.2.0",
-    "react-dom": "^16.2.0"
+    "react-dom": "^16.2.0",
+    "react-icons": "^2.2.7",
+    "styled-components": "^3.1.4"
+  },
+  "devDependencies": {
+    "babel-plugin-styled-components": "^1.5.0"
   }
 }

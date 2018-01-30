@@ -1,11 +1,11 @@
-import React from 'react';
+import { Component } from 'react';
+import Layout from '../../components/Layout';
+import Forecast from '../../components/Forecast';
 
-const forecastPage = () => (
-
-   <div>
-      <h1> Forecast Page! </h1>
-   </div>
-);
-
-
-export default forecastPage;
+export default class forecastPage extends Component {
+ render() {
+   return (
+      <Forecast />
+    )
+  }
+}

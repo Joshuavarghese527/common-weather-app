@@ -1,5 +1,8 @@
 import { Component } from 'react';
 import styled from 'styled-components';
+import ArrowButton from 'react-icons/lib/md/arrow-downward';
+import Forecast from '../forecast/Forecast';
+
 
 
 const Div = styled.div`
@@ -9,9 +12,6 @@ const Div = styled.div`
 `;
 
 const Input = styled.input.attrs({
-  // we can define static props
-  type: 'zipcode',
-
   // or we can define dynamic ones
   margin: props => props.size || '1em',
   padding: props => props.size || '1em'
@@ -37,17 +37,30 @@ const Input = styled.input.attrs({
   }
 `;
 
+const DivArrowButton = styled.div`
+  margin: 25px;
+  position: relative;
+  top: -1em;
+  `;
+
 export default class zipCodeButton extends Component {
 
- render() {
+
+
+render() {
    return (
    <Div>
-     <Input 
+   <form onSubmit={this.props.obtainWeather}>
+      <Input 
+       type="text"
+       name="zipcode"
        placeholder="00000" 
        size="1em"
        innerRef={x => { this.input = x }}
        onMouseEnter={() => this.input.focus()}
       />
+      <button type="button" className="btn btn-success">Submit</button>
+      </form>
    </Div>
     )
   }

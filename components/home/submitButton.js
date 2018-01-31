@@ -1,5 +1,8 @@
 import { Component } from 'react';
 import styled from 'styled-components';
+import Router from 'next/router'
+import Link from 'next/link'
+
 import Arrow from 'react-icons/lib/md/arrow-downward';
 
 
@@ -15,8 +18,11 @@ export default class submitButton extends Component {
  render() {
    return (
      <Div>
+     <Link>
        <Arrow
+         onClick={() => Router.push('/forecast')}
          size={50} />
+         </Link>
      </Div>
     )
   }

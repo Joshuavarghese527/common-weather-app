@@ -39,10 +39,14 @@ arrow ​functions, ​etc.) ​to ​write ​clean, ​concise, ​and ​main
 
 ### Work Timeline 
 
-[ ] Style index page for zip code
+[ x ] Style index page for zip code
+
 [ ] Style Forcast Page
+
 [ ] Fetch data from weather api 
+
 [ ] Display data on Forcast Page
+
 [ ] Scroll Animations
  
 

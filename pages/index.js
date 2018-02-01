@@ -1,12 +1,13 @@
 import { Component } from 'react';
 import Layout from '../components/Layout'
-import {HomeText, ZipCodeForm, SubmitButton} from '../components/home'
+import {ZipCodeForm, HomeText} from '../components/homepage'
 import Forecast from '../components/forecast/Forecast'
 
 const API_KEY = "06c2ed9eb2345f27c26c6b863d8aa0f1"
 
 
 export default class Index extends Component { 
+
   state = {
     temperature: undefined,
     error: undefined
@@ -20,7 +21,7 @@ export default class Index extends Component {
     if (zipcode) {
     console.log(data);
     this.setState({
-      temperature: data.list[36].main.temp,
+      temperature: data.list[0].main.temp,
       error: ""
     });
   } else {
@@ -34,7 +35,7 @@ export default class Index extends Component {
  render() {
    return (
      <Layout>
-        <HomeText />
+     <HomeText />
         <ZipCodeForm obtainWeather={this.obtainWeather}/>
         <Forecast temperature={this.state.temperature}
                   error={this.state.error}
@@ -43,8 +44,6 @@ export default class Index extends Component {
         body {
           background: #cd432e
           color: #f2f2f2f2
-          height: 100vh;
-          width: 100vw;
         }
       `}
       </style>

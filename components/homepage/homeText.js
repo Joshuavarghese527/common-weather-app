@@ -3,17 +3,17 @@ import styled from 'styled-components';
 
 
 const Div = styled.div`
-  margin: 50px;
-  padding-top: 3em;  
+  margin: 70px;
+  padding-top: 6.5em;  
 `;
 
 const H1 = styled.h1`
-  font-size: 40px;
+  font-size: 55px;
   font-family: TimposHeadline-Semibold;
   `;
 
 const Paragraph = styled.p`
-  font-size: 20px;
+  font-size: 25px;
   font-family: apercu_regular_pro
 `;
 
